@@ -21,6 +21,6 @@ process_data.py
 ## 呈现效果
 ![呈现效果](images/20190804165051.png)
 ## 自己编写cypher语句并返回结果展示
-1型糖尿病需要哪些药物治疗
+1型糖尿病需要哪些药物治疗  
 match (m:drug)-[r:drug_of]->(p:disease) where p.name = '1型糖尿病' return m,p
 ![呈现效果](images/20190804164533.png)
